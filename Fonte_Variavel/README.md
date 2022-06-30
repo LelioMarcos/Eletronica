@@ -16,6 +16,11 @@ Foram usados 4 diodos 1N4004 para retificar a corrente AC para uma corrente DC.
 Cálculo do consumo dos 4 idodos:
 Vcons = Vantes - Vdepois = 17.98 - 16.58 = 1.40v = 2 * 0.7v;
 
+Cálculo para a tensão transformada:
+Vtr/Vent = (N1 / N2)
+Vtr/180 = 1/10
+Vtr = 17.98.
+
 ### Capacitor
 Foi usado um capacitor 680µF para filtrar a corrente que sai da ponte de diodo.
 
