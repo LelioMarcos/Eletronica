@@ -8,23 +8,27 @@ O objetivo do projeto é criar uma fonte de tensão variável entre 3v e 12v.
 Foi utilizado para transformar uma entrada AC de 180v de entrada para 17.98v AC na saída.
 
 Cálculo para a tensão RMS:
-Vrms = Vmax/√2 = 180/√2 = 127.28.
+Vrms = Vmax/√2 = 179.8/√2 = 127.28v.
+
+Cálculo para a tensão transformada:
+Vtr/Vent = (N1 / N2)
+Vtr/179.8 = 1/10
+Vtr = 18v. No entanto, o valor real é 17.98v.
 
 ### Diodo
 Foram usados 4 diodos 1N4004 para retificar a corrente AC para uma corrente DC.
 
 Cálculo do consumo dos 4 idodos:
-Vcons = Vantes - Vdepois = 17.98 - 16.58 = 1.40v = 2 * 0.7v;
-
-Cálculo para a tensão transformada:
-Vtr/Vent = (N1 / N2)
-Vtr/180 = 1/10
-Vtr = 17.98.
+Vcons = Vantes - Vdepois = 17.98v - 16.58v = 1.40v = 2 * 0.7v;
 
 ### Capacitor
 Foi usado um capacitor 680µF para filtrar a corrente que sai da ponte de diodo.
 
 Cálculo do ripple:
+
+RIPPLE =  I / 2* 60 * C
+
+RIPPLE =  Vs / 2*f * C * R
 
 C = 5 * 100mA / 16.58 * 60Hz = 497.4 (foi usado um capacitor maior, então o ripple é menor).
 
