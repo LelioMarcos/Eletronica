@@ -26,11 +26,9 @@ Foi usado um capacitor 680µF para filtrar a corrente que sai da ponte de diodo.
 
 Cálculo do ripple:
 
-RIPPLE =  I / 2* 60 * C
+RIPPLE =  Vs / 2*f * C * R = I / 2*f*C
 
-RIPPLE =  Vs / 2*f * C * R
-
-C = 5 * 100mA / 16.58 * 60Hz = 497.4 (foi usado um capacitor maior, então o ripple é menor).
+C = 100mA / 2 * 60 * 1.658V ≅ 502,6µF (foi usado um capacitor maior, então o ripple é menor).
 
 ### Resistor
 Foram usados 1 resistor de 1KΩ, 1 de 820Ω e 1 de 4.7KΩ.
