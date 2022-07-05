@@ -50,4 +50,4 @@ O pontenciômetro de 10kΩ foi utilizado para variar a tensão entre os 3v e 12v
 
 ##Circuito no Eagle
 ![Imagem do circuito esquemático](imagens/fonte_esquematico.jpeg)
-![Imagem do circuito PCB](fonte_pcb.jpeg)
+![Imagem do circuito PCB](imagens/fonte_pcb.jpeg)
