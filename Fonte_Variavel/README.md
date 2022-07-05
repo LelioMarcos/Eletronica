@@ -46,8 +46,8 @@ O pontenciômetro de 10kΩ foi utilizado para variar a tensão entre os 3v e 12v
 
 
 ## Circuito no Falstad
-![Imagem do circuito feito no Falstad](imagens/circuito_falstad.png)
+![Imagem do circuito feito no Falstad](imagens/fonte_falstad.png)
 
-##Circuito no Eagle
+## Circuito no Eagle
 ![Imagem do circuito esquemático](imagens/fonte_esquematico.jpeg)
 ![Imagem do circuito PCB](imagens/fonte_pcb.jpeg)
