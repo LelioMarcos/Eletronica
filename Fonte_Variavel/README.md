@@ -12,38 +12,38 @@ Vrms = Vmax/√2 = 179.8/√2 = 127.28v.
 
 Cálculo para a tensão transformada:
 Vtr/Vent = (N1 / N2)
-Vtr/179.8 = 1/10
-Vtr = 18v. No entanto, o valor real é 17.98v.
+Vtr/179.8 = 1/7.5
+Vtr = 24v. No entanto, o valor real é 23.98v.
 
 ### Diodo
 Foram usados 4 diodos 1N4004 para retificar a corrente AC para uma corrente DC.
 
 Cálculo do consumo dos 4 idodos:
-Vcons = Vantes - Vdepois = 17.98v - 16.58v = 1.40v = 2 * 0.7v;
+Vcons = Vantes - Vdepois = 23.98v - 22.57v = 1.40v;
 
 ### Capacitor
 Foi usado um capacitor 680µF para filtrar a corrente que sai da ponte de diodo.
 
 Cálculo do ripple:
 
-RIPPLE =  Vs / 2*f * C * R = I / 2*f*C
-
-C = 100mA / 2 * 60 * 1.658V ≅ 502,6µF (foi usado um capacitor maior, então o ripple é menor).
+Consideraremos um ripple máximo de 10%. Então:
+Vs = 22.9v
+RIPPLE = Vs / 10 = Vs / 2*f * C * R = I / 2*f*C = 2.29
+Isolando a capacitância,
+C = 101.67mA / 2 * 60 * 2.29 ≅ 370µF (foi usado um capacitor maior por causa da indisponibilidade desse valor, então o ripple é menor).
 
 ### Resistor
-Foram usados 1 resistor de 1KΩ, 1 de 820Ω e 1 de 4.7KΩ.
+Foram usados 2 resistores de 1KΩ, 1 de 820Ω e 1 de 2.2kΩ.
 
 ### Diodo Zenner
-Foi usado um diodo zenner com tensão de ruptura de 13v para regular a tensão de saída da fonte.
+Foi usado um diodo zenner com tensão de ruptura de 13v para limitar a tensão de saída da fonte em até 13v.
 
-### Transistor
-200mA
+### Transistor e Potenciometro
+O transistor 1N4004, em conjunto com o protenciômetro de 10kΩ, faz a parte da regulagem da tensão de saída da fonte. Para a nossa fonte, a tensão mínima deve ser de pelo menos 3v; e a tensão máxima, de pelo menos 12v.
 
-### Potenciometro
-O pontenciômetro de 10kΩ foi utilizado para variar a tensão entre os 3v e 12v.
 
 ## Conclusão
-
+No final da montagem, conseguimos montar uma fonte funcional que consegue regular a tensão entre 2.8v e 12.7v.
 
 ## Circuito no Falstad
 ![Imagem do circuito feito no Falstad](imagens/fonte_falstad.png)
@@ -51,3 +51,6 @@ O pontenciômetro de 10kΩ foi utilizado para variar a tensão entre os 3v e 12v
 ## Circuito no Eagle
 ![Imagem do circuito esquemático](imagens/fonte_esquematico.jpeg)
 ![Imagem do circuito PCB](imagens/fonte_pcb.jpeg)
+
+## Vídeo apresentando a fonte
+<inserir aqui o vídeo>
