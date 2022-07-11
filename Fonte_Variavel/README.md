@@ -5,7 +5,7 @@ O objetivo do projeto é criar uma fonte de tensão variável entre 3v e 12v.
 
 ## Materiais usados
 ### Transformador
-Foi utilizado para transformar uma entrada AC de 180v de entrada para 17.98v AC na saída.
+Foi utilizado para transformar uma entrada AC de 180v de entrada para 23.98v AC na saída.
 
 Cálculo para a tensão RMS:
 Vrms = Vmax/√2 = 179.8/√2 = 127.28v.
