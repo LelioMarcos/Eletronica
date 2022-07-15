@@ -53,4 +53,4 @@ No final da montagem, conseguimos montar uma fonte funcional que consegue regula
 ![Imagem do circuito PCB](imagens/fonte_pcb.jpeg)
 
 ## Vídeo apresentando a fonte
-<inserir aqui o vídeo>
+[![Alt text](https://img.youtube.com/vi/https://youtu.be/RwTchMkjonU/0.jpg)](https://https://youtu.be/RwTchMkjonU)
