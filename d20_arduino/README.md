@@ -15,3 +15,4 @@ Nosso projeto envolve criar um dado de 20 lados usando o Arduino UNO e uma matri
 ## Código
 
 ## Vídeo
+https://youtu.be/zMl9nvj6ZbU
