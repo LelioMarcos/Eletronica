@@ -11,6 +11,7 @@ Nosso projeto envolve criar um dado de 20 lados usando o Arduino UNO e uma matri
 ### Buzzer Passivo
 
 ## Circuito no Tinkercad
+![Imagem do circuito no Tinkercad](imagens/d20_circuito.jpg)
 
 ## Código
 
