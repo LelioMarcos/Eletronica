@@ -23,6 +23,6 @@ I = Va/R = 5 / 10 = 0.5A
 ## Vídeo
 https://youtu.be/zMl9nvj6ZbU
 
-##Material de apoio
+## Material de apoio
 -Utilizamos o simulador LED MATRIX SIMULATOR - https://xantorohara.github.io/led-matrix-editor/ para desenhar os números e utilizamos parte do código disponibilizado como apoio.
 -Também usamos a biblioteca externa LedControl - https://www.arduino.cc/reference/en/libraries/ledcontrol/
