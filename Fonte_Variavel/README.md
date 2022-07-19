@@ -41,9 +41,13 @@ Cálculo do ripple:
 
 Consideraremos um ripple máximo de 10%. Então:
 Vs = 22.9v
+
 RIPPLE = Vs / 10 = Vs / 2*f * C * R = I / 2*f*C = 2.29
+
 Isolando a capacitância,
+
 C = 101.67mA / 2 * 60 * 2.29 ≅ 370µF (foi usado um capacitor maior por causa da indisponibilidade desse valor, então o ripple é menor).
+
 
 ### Resistor
 Foram usados 2 resistores de 1KΩ, 1 de 820Ω e 1 de 2.2kΩ.
