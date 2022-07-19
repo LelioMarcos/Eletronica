@@ -1,7 +1,20 @@
 # Fonte Variável
 
 ## Objetivo
-O objetivo do projeto é criar uma fonte de tensão variável entre 3v e 12v.
+O objetivo do projeto é criar uma fonte de tensão variável entre 3v e 12v
+
+## Preços
+| Comando | Descrição |
+| --- | --- |
+| 1xCapacitor 680 uF | R$5,70 |
+| 2xResistores 1KΩ | R$ 0,07 cada |
+| 1xResistor 820Ω | R$ 0,07 |
+| 1xResistor 2.2KΩ | R$ 0,06 |
+| 1xDiodo Zener 13V | R$0,48 |
+| 4xDiodos 1N4004 | R$0,20 cada |
+| 1xTransistor BC337-40 | R$ 0,69 |
+| 1xPotenciômetro 10KΩ | R$ 7,00 |
+| 1xLED 5MM | R$ 0,50 |
 
 ## Materiais usados
 ### Transformador
