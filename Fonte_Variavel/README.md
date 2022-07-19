@@ -3,7 +3,7 @@
 ## Objetivo
 O objetivo do projeto é criar uma fonte de tensão variável entre 3v e 12v
 
-## Preços
+## Preços (Julho de 2022)
 | Comando | Descrição |
 | --- | --- |
 | 1xCapacitor 680 uF | R$5,70 |
