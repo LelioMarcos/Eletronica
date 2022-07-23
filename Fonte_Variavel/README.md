@@ -63,6 +63,10 @@ O transistor 1N4004, em conjunto com o protenciômetro de 10kΩ, faz a parte da 
 No final da montagem, conseguimos montar uma fonte funcional que consegue regular a tensão entre 2.8v e 12.7v.
 
 ## Circuito no Falstad
+Obs.: Seria ideal que o resistor de 820ohms fosse de, pelo menos 1kohms.
+
+Obs. 2: Os resistores de 2.2k e de 1k no final do circuito foram colocados pois não tinhamos un resistor de, pelo menos, 3k, que seria o ideal.
+
 ![Imagem do circuito feito no Falstad](imagens/fonte_falstad.png)
 
 ## Circuito no Eagle
